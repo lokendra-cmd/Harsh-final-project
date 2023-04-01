@@ -1,3 +1,6 @@
+body{
+  background-color: rgb(28, 28, 37);
+}
 .App {
   text-align: center;
 }
@@ -35,4 +38,62 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+input{
+  padding: 0.2vw;
+  width: 8vw;
+  height: 4vh;
+}
+select{
+  padding: 0.2vw;
+  height: 4vh;
+  width: 8vw;
+}
+table,th,td{
+  border: 1px solid black;
+}
+.inputFields{
+  display: grid;
+  gap: 3vh;
+  color: white;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+  padding: 2vw;
+  margin: 2vh 2vw 1vh 2vw;
+  width: 96vw;
+  border-radius: 1vw;
+  text-align: start;
+  box-shadow: 10px 10px rgba(71, 71, 71,0.1);
+  background-color: rgba(225,225,225,0.1);
+}
+.inputFields label{
+  width: 8vw;
+}
+
+.buttonItem{
+  box-shadow: 5px 5px rgba(28, 28, 37,0.4) ;
+  height: 5vh;
+  border-radius: 8px;
+  width: 7vw;
+  margin: 2vw 40vw 0 40vw;
+  justify-content: center;
+  grid-column: 1 / 11;
+}
+.predictedScore{
+  width: 21vw;
+  margin: 1vw 0 1vw 2vw;
+  padding: 2vw;
+  border-radius: 1vw;
+  font-size: 1.5vw;
+  text-align: start;
+  color: white;
+  box-shadow: 10px 10px rgba(71, 71, 71,0.1);
+  background-color:rgba(225,225,225,0.1) ;
+}
+.barChart{
+  width: fit-content;
+  padding: 1vw;
+  border-radius: 2vw;
+  margin: 1vw 1vw 1vw 2vw;
+  background-color: white;
 }
