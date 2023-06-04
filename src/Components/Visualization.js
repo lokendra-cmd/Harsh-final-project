@@ -1,6 +1,7 @@
 import React from 'react'
 import Plot from 'react-plotly.js';
 import pbd from './pbd.jpg'
+import img from './img.jpg'
 function Visualization() {
 
   return (
@@ -35,6 +36,11 @@ function Visualization() {
       <div className='plots'>
         <p>Probability Distribution of Grades</p>
         <img src={pbd} alt="" style={{width:"70vw"}}/>
+      </div>
+
+      <div className='plots'>
+        <p>Compare G1 and G2 with G3</p>
+        <img src={img} alt="" style={{width:"70vw"}}/>
       </div>
 
 
